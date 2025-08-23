@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebijakan Privasi | Nama Perusahaan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #1f2937;
+            background-color: #f9fafb;
+        }
+        
+        .policy-container {
+            counter-reset: section;
+        }
+        
+        .section-title {
+            position: relative;
+            counter-increment: section;
+            counter-reset: subsection;
+        }
+        
+        .section-title:before {
+            content: counter(section) ". ";
+            color: #3b82f6;
+            font-weight: 700;
+        }
+        
+        .notice-box {
+            background-color: #f8fafc;
+            border-left: 4px solid #3b82f6;
+            padding: 1.25rem;
+            margin: 1.5rem 0;
+            border-radius: 0 0.5rem 0.5rem 0;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+        }
+        
+        .data-table th, .data-table td {
+            border: 1px solid #e5e7eb;
+            padding: 0.75rem;
+            text-align: left;
+        }
+        
+        .data-table th {
+            background-color: #f3f4f6;
+            font-weight: 600;
+        }
+        
+        @media (max-width: 768px) {
+            .data-table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div class="flex justify-between items-center">
+                <a href="#" class="flex items-center">
+                    <img src="https://placehold.co/160x50?text=Company+Logo" alt="Logo perusahaan dengan desain modern" class="h-10">
+                </a>
+                <div class="hidden md:block">
+                    <h1 class="text-xl font-bold text-gray-800">Kebijakan Privasi</h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="#" class="text-blue-600 hover:text-blue-800 font-medium text-sm">Kembali ke Beranda</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <!-- Introduction -->
+        <div class="bg-white rounded-xl shadow-sm p-8 mb-10 text-center">
+            <h1 class="text-2xl md:text-3xl font-bold text-gray-800 mb-4">KEBIJAKAN PRIVASI</h1>
+            <p class="text-gray-600">Terakhir diperbarui: 1 Juni 2023</p>
+            
+            <div class="notice-box text-left mt-6">
+                <p class="font-medium text-gray-700">PENTING: Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, mengungkapkan, dan melindungi informasi pribadi Anda. Dengan mengakses atau menggunakan layanan kami, Anda menyetujui praktik yang dijelaskan dalam kebijakan ini.</p>
+            </div>
+        </div>
+
+        <!-- Policy Content -->
+        <div class="bg-white rounded-xl shadow-sm p-8 policy-container">
+            <!-- Section 1 -->
+            <h3 class="section-title text-xl font-bold text-gray-800 mt-8 mb-4">RUANG LINGKUP DAN PERSETUJUAN</h3>
+            <div class="text-gray-600 space-y-4">
+                <p>Kebijakan Privasi ini berlaku untuk semua informasi pribadi yang dikumpulkan melalui:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Situs web kami (<a href="https://www.perusahaan.com" class="text-blue-600 hover:underline">www.perusahaan.com</a>)</li>
+                    <li>Aplikasi seluler kami (jika berlaku)</li>
+                    <li>Interaksi offline (seperti telepon, email, atau tatap muka)</li>
+                    <li>Platform pihak ketiga tempat kami beroperasi</li>
+                </ul>
+                <p>Dengan menggunakan layanan kami, Anda memberikan persetujuan atas pengumpulan, penggunaan, pengungkapan, dan pemrosesan informasi pribadi Anda sebagaimana dijelaskan dalam kebijakan ini.</p>
+            </div>
+
+            <!-- Section 2 -->
+            <h3 class="section-title text-xl font-bold text-gray-800 mt-10 mb-4">INFORMASI YANG KAMI KUMPULKAN</h3>
+            <div class="text-gray-600 space-y |4">
+                <p>Kami mengumpulkan beberapa jenis informasi untuk berbagai tujuan guna memberikan dan meningkatkan layanan kami kepada Anda.</p>
+                
+                <h4 class="font-semibold text-gray-700 mt-6">Informasi yang Anda Berikan Langsung</h4>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Jenis Data</th>
+                            <th>Contoh</th>
+                            <th>Tujuan Pengumpulan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Identitas pribadi</td>
+                            <td>Nama lengkap, tanggal lahir, jenis kelamin</td>
+                            <td>Verifikasi identitas, personalisasi layanan</td>
+                        </tr>
+                        <tr>
+                            <td>Informasi kontak</td>
+                            <td>Alamat email, nomor telepon, alamat fisik</td>
+                            <td>Komunikasi, pengiriman produk/jasa</td>
+                        </tr>
+                        <tr>
+                            <td>Data akun</td>
+                            <td>Username, password, pertanyaan keamanan</td>
+                            <td>Keamanan akun, otentikasi</td>
+                        </tr>
+                        <tr>
+                            <td>Data transaksi</td>
+                            <td>Detail pembelian, riwayat pembayaran</td>
+                            <td>Pemenuhan pesanan, dukungan pelanggan</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <h4 class="font-semibold text-gray-700 mt-6">Informasi yang Dikumpulkan Secara Otomatis</h4>
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Jenis Data</th>
+                            <th>Contoh</th>
+                            <th>Tujuan Pengumpulan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data penggunaan</td>
+                            <td>Halaman yang dikunjungi, waktu akses</td>
+                            <td>Analitik, perbaikan layanan</td>
+                        </tr>
+                        <tr>
+                            <td>Data perangkat</td>
+                            <td>Alamat IP, tipe browser, sistem operasi</td>
+                            <td>Keamanan, kompatibilitas</td>
+                        </tr>
+                        <tr>
+                            <td>Lokasi</td>
+                            <td>Negara, kota, koordinat GPS (dengan izin)</td>
+                            <td>Personalisasi, fitur berbasis lokasi</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Section 3 -->
+            <h3 class="section-title text-xl font-bold text-gray-800 mt-10 mb-4">PENGGUNAAN INFORMASI PRIBADI</h3>
+            <div class="text-gray-600 space-y-4">
+                <p>Kami menggunakan informasi yang kami kumpulkan untuk berbagai tujuan, termasuk:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Menyediakan, mengoperasikan, dan memelihara layanan kami</li>
+                    <li>Memperbaiki, menyesuaikan, dan mengembangkan layanan kami</li>
+                    <li>Memahami dan menganalisis bagaimana Anda menggunakan layanan kami</li>
+                    <li>Mengembangkan produk, layanan, fitur, dan fungsionalitas baru</li>
+                    <li>Berkomunikasi dengan Anda, baik langsung maupun melalui mitra kami</li>
+                    <li>Mengirim email dan pemberitahuan lainnya</li>
+                    <li>Mencari dan mencegah penipuan</li>
+                    <li>Memenuhi kewajiban hukum dan regulasi</li>
+                </ul>
+                
+                <div class="notice-box mt-6">
+                    <p class="font-medium text-gray-700">Kami TIDAK akan menjual informasi pribadi Anda kepada pihak ketiga. Pemrosesan data hanya dilakukan untuk tujuan yang sah dan transparan sesuai dengan kebijakan ini.</p>
+                </div>
+            </div>
+
+            <!-- Section 4 -->
+            <h3 class="section-title text-xl font-bold text-gray-800 mt-10 mb-4">BERBAGI INFORMASI PRIBADI</h3>
+            <div class="text-gray-600 space-y-4">
+                <p>Dalam keadaan tertentu, kami dapat membagikan informasi pribadi Anda dengan:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li><strong>Penyedia layanan:</strong> Vendor dan mitra yang mendukung operasi kami (contoh: hosting, pembayaran, analitik)</li>
+                    <li><strong>Afiliasi:</strong> Perusahaan dalam kelompok usaha kami</li>
+                    <li><strong>Kewajiban hukum:</strong> Jika diwajibkan oleh hukum atau permintaan pemerintah yang sah</li>
+                    <li><strong>Perlindungan hak:</strong> Untuk melindungi hak, properti, atau keselamatan kami, pengguna, atau publik</li>
+                    <li><strong>Transaksi bisnis:</strong> Dalam merger, akuisisi, atau penjualan aset</li>
+                </ul>
+                
+                <p>Kami memastikan semua pihak ketiga yang menerima data memenuhi standar perlindungan data yang memadai melalui kontrak atau mekanisme perlindungan data lainnya.</p>
+            </div>
+
+            <!-- Section 5 -->
+            <h3 class="section-title text-xl font-bold text-gray-800 mt-10 mb-4">KEAMANAN DATA</h3>
+            <div class="text-gray-600 space-y-4">
+                <p>Kami menerapkan langkah-langkah keamanan teknis dan organisasi yang sesuai untuk melindungi informasi pribadi Anda, termasuk:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Enkripsi data dalam transit dan penyimpanan</li>
+                    <li>Kontrol akses berbasis peran yang ketat</li>
+                    <li>Pemantauan keamanan 24/7</li>
+                    <li>Uji penetrasi dan audit keamanan rutin</li>
+                    <li>Program pelatihan kesadaran keamanan untuk staf</li>
+                </ul>
+                
+                <p>Meskipun kami berusaha keras menggunakan cara yang dapat diterima secara komersial untuk melindungi data pribadi Anda, tidak ada metode transmisi melalui internet atau penyimpanan elektronik yang 100% aman.</p>
+                
+                <div class="notice-box mt-6">
+                    <p class="font-medium text-gray-700">Jika terjadi pelanggaran data yang memengaruhi informasi pribadi Anda, kami akan memberi tahu Anda sesuai dengan persyaratan hukum yang berlaku.</p>
+                </div>
+            </div>
+
+            <!-- Section 6 -->
+            <h3 class="section-title text-xl font-bold text-gray-800 mt-10 mb-4">HAK PRIVASI ANDA</h3>
+            <div class="text-gray-600 space-y-4">
+                <p>Anda memiliki hak tertentu terkait informasi pribadi Anda, termasuk:</p>
+                
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Hak</th>
+                            <th>Deskripsi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Hak Akses</td>
+                            <td>Meminta salinan data pribadi Anda yang kami simpan</td>
+                        </tr>
+                        <tr>
+                            <td>Hak Koreksi</td>
+                            <td>Memperbaiki data yang tidak lengkap atau tidak akurat</td>
+                        </tr>
+                        <tr>
+                            <td>Hak Penghapusan</td>
+                            <td>Meminta penghapusan data pribadi Anda dalam keadaan tertentu</td>
+                        </tr>
+                        <tr>
+                            <td>Hak Pembatasan</td>
+                            <td>Meminta pembatasan pemrosesan data Anda</td>
+                        </tr>
+                        <tr>
+                            <td>Hak Portabilitas</td>
+                            <td>Menerima data Anda dalam format terstruktur untuk ditransfer ke penyedia lain</td>
+                        </tr>
+                        <tr>
+                            <td>Hak Keberatan</td>
+                            <td>Menolak pemrosesan data dalam keadaan tertentu</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <p>Untuk menggunakan hak privasi Anda, silakan hubungi kami melalui informasi kontak di bagian akhir kebijakan ini. Kami mungkin meminta verifikasi identitas untuk melindungi data Anda.</p>
+            </div>
+
+            <!-- Section 7 -->
+            <h3 class="section-title text-xl font-bold text-gray-800 mt-10 mb-4">COOKIES DAN TEKNOLOGI PELACAKAN</h3>
+            <div class="text-gray-600 space-y-4">
+                <p>Kami menggunakan cookies dan teknologi pelacakan serupa untuk:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Memungkinkan fungsi dasar situs web</li>
+                    <li>Menganalisis penggunaan situs web</li>
+                    <li>Menyimpan preferensi Anda</li>
+                    <li>Menampilkan iklan yang dipersonalisasi (jika berlaku)</li>
+                </ul>
+                
+                <p>Anda dapat mengontrol penggunaan cookies melalui pengaturan browser Anda. Namun, mematikan cookies mungkin memengaruhi fungsi tertentu dari layanan kami.</p>
+                
+                <div class="notice-box mt-6">
+                    <p class="font-medium text-gray-700">Ketika menggunakan layanan kami, Anda menyetujui penggunaan cookies sesuai dengan kebijakan ini, kecuali Anda telah menonaktifkannya.</p>
+                </div>
+            </div>
+
+            <!-- Section 8 -->
+            <h3 class="section-title text-xl font-bold text-gray-800 mt-10 mb-4">PRIVASI ANAK-ANAK</h3>
+            <div class="text-gray-600 space-y-4">
+                <p>Layanan kami tidak ditujukan untuk anak-anak di bawah 13 tahun (atau batas usia yang lebih tinggi sesuai hukum setempat). Kami tidak dengan sengaja mengumpulkan informasi pribadi dari anak-anak tanpa verifikasi persetujuan orang tua.</p>
+                
+                <p>Jika kami mengetahui bahwa kami telah mengumpulkan data anak tanpa verifikasi persetujuan orang tua, kami akan mengambil langkah-langkah untuk menghapus informasi tersebut dari server kami.</p>
+            </div>
+
+            <!-- Section 9 -->
+            <h3 class="section-title text-xl font-bold text-gray-800 mt-10 mb-4">PERUBAHAN KEBIJAKAN</h3>
+            <div class="text-gray-600 space-y-4">
+                <p>Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan material melalui:</p>
+                <ul class="list-disc pl-6 space-y-2">
+                    <li>Pemberitahuan di situs web kami</li>
+                    <li>Email ke alamat yang terdaftar</li>
+                    <li>Pesan dalam aplikasi (jika berlaku)</li>
+                </ul>
+                
+                <p>Perubahan akan efektif segera setelah diposting dengan tanda "Terakhir diperbarui" yang direvisi. Kami mendorong Anda untuk meninjau kebijakan ini secara berkala.</p>
+            </div>
+
+            <!-- Section 10 -->
+            <h3 class="section-title text-xl font-bold text-gray-800 mt-10 mb-4">HUBUNGI KAMI</h3>
+            <div class="text-gray-600 space-y-4">
+                <p>Untuk pertanyaan atau permintaan terkait kebijakan privasi ini, silakan hubungi:</p>
+                
+                <div class="bg-gray-50 p-4 rounded-lg">
+                    <p class="font-medium">Petugas Perlindungan Data</p>
+                    <p>Nama Perusahaan</p>
+                    <p>Email: privasi@perusahaan.com</p>
+                    <p>Telepon: +62 21 1234 5678</p>
+                    <p>Alamat: Jl. Contoh No. 123, Jakarta Selatan 12345, Indonesia</p>
+                </div>
+                
+                <p>Kami akan menanggapi pertanyaan Anda dalam waktu 30 hari kerja sejak penerimaan.</p>
+            </div>
+
+            <!-- Acceptance -->
+            <div class="bg-blue-50 rounded-lg p-6 mt-12 text-center">
+                <p class="font-medium text-gray-700">Dengan menggunakan layanan kami, Anda menyatakan bahwa Anda telah membaca, memahami, dan menyetujui Kebijakan Privasi ini.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <img src="https://placehold.co/160x50?text=Company+Logo" alt="Logo perusahaan" class="h-8">
+                </div>
+                <div class="text-sm text-gray-400">
+                    <p>&copy; 2023 Nama Perusahaan. Seluruh hak cipta dilindungi.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Accordion functionality can be added here if needed
+        document.addEventListener('DOMContentLoaded', function() {
+            // You can add interactive elements like expanding sections here
+        });
+    </script>
+</body>
+</html>
